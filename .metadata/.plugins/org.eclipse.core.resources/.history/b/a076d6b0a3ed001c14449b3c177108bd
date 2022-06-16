@@ -1,0 +1,28 @@
+package codigos;
+
+public class InverteString {
+	public static void main(String[] args) {}
+		
+		
+		private String str = "StringInvertida";
+
+
+		public StringBuilder getStr() {
+			
+			System.out.println(str);
+			StringBuilder dest = new StringBuilder();
+			for (int i = (str.length() - 1); i >= 0; i--){
+				dest.append(str.charAt(i));
+			}
+			
+			return dest;
+		}
+
+
+	
+		
+		
+	
+}
+
+

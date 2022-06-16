@@ -1,0 +1,24 @@
+package codigos;
+
+public class VariavelSoma {
+	public static void main(String[] args) {}
+	
+	private int indice = 13;
+		private int soma = 0;
+		private int k = 0;
+		
+		
+		
+		
+		
+		public int getSoma() {
+			while (k < indice) {
+				k++;
+				soma += k;
+			}
+			return soma;
+		}
+		
+}
+
+
